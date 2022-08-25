@@ -9,7 +9,7 @@ import {useNavigate} from 'react-router-dom'
 
 const ContentDetails = () => {
     const {categoriaSeleccionada, categoria} = useCategoria()
-    console.log(categoriaSeleccionada.video_files)
+    
     const navigate= useNavigate()
     
 
